@@ -76,7 +76,7 @@ let s:cterm_green     = 84
 " group_v: window id in visual mode
 " group_r: window id in select mode
 "
-function! SpaceVim#mapping#guide#theme#spacedracula#palette() abort
+function! colors#spacedracula#palette() abort
   return [
     \ [s:gui_selection,  s:gui_cyan,  s:cterm_cyan,  s:cterm_selection],
     \ [s:gui_comment,  s:gui_bglight, s:cterm_bglight, s:cterm_comment],
